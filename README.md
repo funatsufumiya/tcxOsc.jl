@@ -1,6 +1,6 @@
 > [!Warning]
 > tcxOsc.jl is now included in TrussC.jl itself to fix the error of the Issue [tcxHap.jl#1](https://github.com/funatsufumiya/tcxHap.jl/issues/1) as an workaround.<br>
-> We are investigating this, and tcxOsc.jl itself would work standalone. But until then we recommend to use TrussC.jl itself.
+> We are investigating this while tcxOsc.jl itself would work standalone (because OSC itself won't use GPU). But until then we recommend to use TrussC.jl itself.
 
 ----
 
