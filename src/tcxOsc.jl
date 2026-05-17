@@ -53,6 +53,32 @@ module tcxOsc
     isMessage,
     getMessageAt,
     getBundleAt,
-    toBytes
+    toBytes,
+
+    OscSenderDestination,
+    host,
+    host!,
+    port,
+    port!,
+
+    OscSender,
+    connect,
+    disconnect,
+    setup,
+    close,
+    send,
+    sendTo,
+    getConnectedAddresses,
+    isConnected,
+
+    OscReceiver,
+    setup,
+    close,
+    getPort,
+    isListening,
+    hasNewMessage,
+    getNextMessage,
+    setBufferSize,
+    getBufferSize
 
 end # module tcxOsc
