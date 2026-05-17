@@ -22,6 +22,37 @@ module tcxOsc
     @initcxx
   end
 
-  # export Osc
+  Base.show(io::IO, v::tcxOsc.OscMessage) = print(io, "OscMessage(",tcxOsc.toString(v),")")
+
+  export OscMessage,
+    setAddress,
+    getAddress,
+    addInt,
+    addFloat,
+    addString,
+    addBlob,
+    addBool,
+    getArgCount,
+    getTypeTags,
+    getArgAsInt,
+    getArgAsFloat,
+    getArgAsString,
+    getArgAsBlob,
+    getArgAsBool,
+    toBytes,
+    toString,
+    clear,
+
+    OscBundle,
+    setTimetag,
+    getTimetag,
+    addMessage,
+    addBundle,
+    getElementCount,
+    isBundle,
+    isMessage,
+    getMessageAt,
+    getBundleAt,
+    toBytes
 
 end # module tcxOsc
