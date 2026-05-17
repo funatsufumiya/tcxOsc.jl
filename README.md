@@ -28,5 +28,5 @@ $ julia --project=@. -e 'using Pkg; Pkg.test()'
 
 ## Build process
 
-This repo is mainly forked [TrussC.jl](https://github.com/funatsufumiya/TrussC.jl), so build process are almost the same. Please check it in detail.
+This repo is mainly forked [TrussC.jl](https://github.com/funatsufumiya/TrussC.jl), so build process are almost the same. Please check it in detail.<br>
 And please especially check [docs/build_notes.md of TrussC.jl](https://github.com/funatsufumiya/TrussC.jl/blob/main/docs/build_notes.md).
