@@ -1,3 +1,9 @@
+> [!Warning]
+> tcxOsc.jl is now included in TrussC.jl itself to fix the error of the Issue [#1](https://github.com/funatsufumiya/tcxHap.jl/issues/1) as an workaround.<br>
+> We are investigating this, and tcxOsc.jl itself would work standalone. But until then we recommend to use TrussC.jl itself.
+
+----
+
 # tcxOsc.jl
 
 tcxOsc of [TrussC](https://trussc.org/) [Julia](https://julialang.org/) binding.
