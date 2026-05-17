@@ -1,6 +1,6 @@
 name = "tcxOsc"
 uuid = "693a7808-da09-437a-b67d-06ce8f5e0295"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Fumiya Funatsu <funatsu.fumiya@gmail.com>"]
 
 [deps]
@@ -9,7 +9,7 @@ tcxOsc_prebuilt_jll = "9ce3ad3c-2352-4c6d-b359-b4a6540114e0"
 
 [compat]
 CxxWrap = "0.17.5"
-tcxOsc_prebuilt_jll = "0.1.0"
+tcxOsc_prebuilt_jll = "0.1.1"
 
 [extras]
 Pipe = "b98c9c47-44ae-5843-9183-064241ee97a0"

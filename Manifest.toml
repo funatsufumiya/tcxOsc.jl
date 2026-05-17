@@ -2,7 +2,7 @@
 
 julia_version = "1.12.6"
 manifest_format = "2.0"
-project_hash = "37b10f781cb3c95bc7f69288967ba1fe4cd2b81e"
+project_hash = "59057b35501f0cba7b0fab9a6c29b468c6d19155"
 
 [[deps.Artifacts]]
 uuid = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
@@ -64,12 +64,12 @@ version = "0.14.9+0"
 deps = ["CxxWrap", "tcxOsc_prebuilt_jll"]
 path = "."
 uuid = "693a7808-da09-437a-b67d-06ce8f5e0295"
-version = "0.1.0"
+version = "0.1.1"
 
 [[deps.tcxOsc_prebuilt_jll]]
 deps = ["Artifacts"]
-git-tree-sha1 = "723458a5eef14707727127bff8a2f19c30c729f7"
+git-tree-sha1 = "4468031e503c5c59f20f6078f52be8f8941586da"
 repo-rev = "main"
 repo-url = "https://github.com/funatsufumiya/tcxOsc_prebuilt_jll"
 uuid = "9ce3ad3c-2352-4c6d-b359-b4a6540114e0"
-version = "0.1.0"
+version = "0.1.1"
