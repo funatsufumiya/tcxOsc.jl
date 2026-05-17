@@ -26,6 +26,8 @@ In your project, run `julia --project=@.` and:
 $ julia --project=@. -e 'using Pkg; Pkg.test()'
 ```
 
+see [test](test) for test codes.
+
 ## Build process
 
 This repo is mainly forked [TrussC.jl](https://github.com/funatsufumiya/TrussC.jl), so build process are almost the same. Please check it in detail.<br>
